@@ -1,0 +1,9 @@
+feedparser
+beautifulsoup4
+requests
+PyYAML
+transformers
+torch
+diffusers
+huggingface_hub
+Pillow
