@@ -1,14 +1,11 @@
 name: AI İçerik Güncelleme PR
 
-# Repoya okuma/yazma izni
 permissions:
   contents: write
 
 on:
-  # Her Pazartesi 03:00 UTC’de tetiklenecek
   schedule:
     - cron: '0 3 * * 1'
-  # Manuel tetikleme imkanı
   workflow_dispatch:
 
 jobs:
@@ -44,3 +41,6 @@ jobs:
           title: 'Otomatik İçerik Güncellemesi'
           body: |
             Bu PR, AI tarafından üretilen yeni içerik ve görselleri içeriyor.
+          # Aşağıdakiler otomatik merge için:
+          auto-merge: true
+          merge-method: squash
