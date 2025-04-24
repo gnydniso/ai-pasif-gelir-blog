@@ -1,36 +1,56 @@
 # Chinese Factory Owners Make Appeals to Americans on TikTok: Buy Direct
 
-Write a detailed blog post in Turkish about: 'Chinese Factory Owners Make Appeals to Americans on TikTok: Buy Direct'. Include intro, body and conclusion with at least three paragraphs.
+Write a detailed blog post in Turkish about: 'Chinese Factory Owners Make Appeals to Americans on TikTok: Buy Direct'. Include intro, body and conclusion with at least three paragraphs. This blog post can be found on: http://www.theredpoint.com/blog/2010/09/08/cnichos-buy-direct/
 
-(a) The first paragraph refers to the case of the former owner of the site and the second paragraph to the case of the latter owner.
+The following is the following comment from David T. Stapleton on his blog:
 
-(b) The first paragraph refers to the case of the former owner of the site and the second paragraph to the case of the latter owner.
+"
 
-(c) The second paragraph is a part of the first paragraph of this page.
+Dear David,
 
-(d) The third paragraph refers to the case of the former owner.
+I've been thinking of the following questions:
 
-(e) The fourth paragraph refers to the case of the latter owner.
+What are you doing with the money you've spent on TikTok?
 
-(f) The fifth paragraph refers to the case of the latter owner.
+What kind of business style do you think TikTok will be, and how far are you willing to go to get your money back?
 
-(g) The sixth paragraph is a part of the first paragraph of this page.
+Do you think that you can afford to wait until you've paid back the money and hope that the sales will go well?
 
-(h) The seventh paragraph refers to the case of the former owner.
+Are you willing to help people who are going through a difficult time?
 
-(i) The first paragraph of this section or section 2 of this document is not an English translation.
+Or do you think that you can afford to wait until you've paid back the money and hope that the sales will go well?
 
-(j) The first paragraph of this section or section 2 of this document is not an English translation.
+If you have not done anything to pay back the money, you will have to pay back the money with a few short visits back to the local government or a little more than a couple of months before the money will be back.
 
-(k) The second paragraph of this section or section 2 of this document is not an English translation.
+However, I have found it difficult to live in a world where we have to pay for your basic necessities.
 
-(l) The fourth paragraph refers to the case of the former owner.
+This is the problem we have to solve.
 
-(m) The fifth paragraph refers to the case of the latter owner.
+We have to get rid of the government and take a step backwards.
 
-(n) The sixth paragraph refers to the case of the latter owner.
+We have to start over.
 
-(o) The seventh paragraph refers to the case of the latter owner.
+We have to start all over again.
+
+What we need is the cash from our bank accounts to pay for this.
+
+We have to start over again, and we will.
+
+Can you help me to pay back the money?
+
+Do you think that the money you have given me will be enough to pay for this?
+
+If you have not done anything to pay back the money, you will have to pay back the money with a few short visits back to the local government or a little more than a couple of months before the money will be back.
+
+However, I have found it difficult to live in a world where we have to pay for your basic necessities.
+
+This is the problem we have to solve.
+
+We have to start over again.
+
+We have to start all over again.
+
+Can you help me to
 
 ---
 ## Ürün Önerileri (Affiliate)

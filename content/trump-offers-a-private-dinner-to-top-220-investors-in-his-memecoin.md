@@ -2,27 +2,31 @@
 
 Write a detailed blog post in Turkish about: 'Trump Offers a Private Dinner to Top 220 Investors in His Memecoin'. Include intro, body and conclusion with at least three paragraphs.
 
-Petition for a private dinner to the president
+What is this?
 
-The Turkish government said on Wednesday that it would be a meeting of the top top 20 investors in the country's biggest bank and investment firm, the World Bank, to discuss how to use the money to help the country recover from the financial crisis.
+You may have seen a lot of headlines touting the idea of a private dinner with Trump. In fact, we've seen a lot of headlines touting the idea of a private dinner with Trump. In fact, we've seen a lot of headlines touting the idea of a private dinner with Trump.
 
-"We will discuss the possible use of the funds to help the country recover from the crisis, but we will also discuss how to use them to help the country strengthen its economy," the prime minister, Ahmet Davutoglu, said in a speech at the World Bank.
+It may seem like a small thing, but that's actually not the case. In fact, it's a reality.
 
-The Turkish government also said that it would meet with the German chancellor, Angela Merkel, to discuss how to use the money to rebuild its economy.
+The Turks are not the only ones thinking about a private dinner.
 
-The meeting is due to be held after the president's trip to China on August 5.
+According to the website of the Turkish Institute of Social Sciences, an organization that organizes and trains people at the University of Istanbul, the private dinner party is being planned to go ahead in the following year.
 
-The World Bank and the EU are the two main donors to Turkey. The World Bank contributed $1.3bn to the Turkish economy in 2015, according to data compiled by Bloomberg.
+The idea is to start with a private dinner, with some of the participants being invited to a private dinner, where they would get a private drink and a complimentary drink.
 
-This is up from $3bn in 2013 and $7bn in 2008.
+It's not an official plan for the private dinner, but it's something that's been discussed by many in the Turkish government as the idea.
 
-The World Bank has a long-standing reputation for helping the world's poorest people. But the funds it has received have been used for projects that have been successful in alleviating poverty in more than a dozen countries, including the United States, which is one of the world's poorest nations.
+The Turkish Institute of Social Sciences has said that the private dinner will be held in a public, public park in the center of the city.
 
-This is the second time the World Bank has worked with the European Union – the first was in 2006.
+Read next: What's the latest story on the "Trump-Russia investigation"?
 
-The World Bank has been able to help the world's poorest people by supporting the creation of a host of projects, including a project to develop food security for the developing world, and a project to help make sustainable agriculture more sustainable.
+In an interview, Deputy Prime Minister Nechirvan Barış told RFA News that the idea is to create a "private network of people between 10 and 50" that will be able to interact with others.
 
-The World Bank has also been able to help the World Bank's international partners by helping to develop infrastructure in countries on the ground in Syria and Central Africa to help secure the supply of food and water for people living in poverty, say the World Bank's chief financial officer, James Cook.
+In the interview, Barış said that the idea is to create a "private network of people between 10 and 50" that will be able to interact with others.
+
+According to the website of the Turkish Institute of Social Sciences, the private dinner party will be hosted by a "private group of representatives of the public," who will have access to the event.
+
+The event is not official, but according to an article published in the Turkish government, the event will be staged in the early morning and will be held at the university's Rijker Hall.
 
 ---
 ## Ürün Önerileri (Affiliate)
