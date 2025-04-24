@@ -73,9 +73,9 @@ for idea in ideas:
     image.save(img_path)
     print(f"🖼️ Oluşturuldu: {img_path}")
 
-# --- 5. Git Commit & Push ---
 subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
 subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
 subprocess.run(["git", "add", "content", "images"], check=True)
 subprocess.run(["git", "commit", "-m", "📦 Otomatik içerik ve görseller eklendi"], check=False)
 subprocess.run(["git", "push"], check=True)
+print("Tüm içerikler üretildi ve içeren klasörler güncellendi.")
