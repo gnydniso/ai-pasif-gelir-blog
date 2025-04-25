@@ -32,8 +32,8 @@ jobs:
       - name: Run Auto Blog Script
         run: python auto_blog.py
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
+            - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: '📦 Otomatik içerik ve görseller eklendi'
@@ -41,6 +41,5 @@ jobs:
           title: 'Otomatik İçerik Güncellemesi'
           body: |
             Bu PR, AI tarafından üretilen yeni içerik ve görselleri içeriyor.
-          # Aşağıdakiler otomatik merge için:
-          auto-merge: true
-          merge-method: squash
+          auto-merge: true        # artık destekleniyor
+          merge-method: squash     # artık destekleniyor
