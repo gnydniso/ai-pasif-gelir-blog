@@ -1,0 +1,19 @@
+# Site başlığı ve açıklaması
+title: "AI Pasif Gelir Blog"
+description: "Tamamen AI ile üretilen pasif gelir blogu"
+
+# Base URL: repoyu /<repo-ismi>/ altında yayınlıyorsan "/ai-pasif-gelir-blog" yaz.
+# Biz root olarak kullanacağımız için boş bırakıyoruz.
+baseurl: ""
+url: "https://gnydniso.github.io/ai-pasif-gelir-blog"
+
+# Tema
+theme: minima
+
+# Markdown motoru
+markdown: kramdown
+
+# Post listesinde kategori etiketleri göster
+collections:
+  posts:
+    output: true
