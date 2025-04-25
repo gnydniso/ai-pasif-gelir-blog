@@ -4,6 +4,7 @@ import feedparser
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from diffusers import StableDiffusionPipeline
 import torch
+from datetime import datetime
 
 # --- 1. Ayarları Oku ---
 with open("config.yml", "r", encoding="utf-8") as f:
@@ -36,25 +37,26 @@ sd = StableDiffusionPipeline.from_pretrained(
 )
 sd = sd.to(device)
 
-# Klasörler
-os.makedirs("content", exist_ok=True)
+# --- 4. İçerik & Görsel Üretimi (_posts formatı) ---
+os.makedirs("_posts", exist_ok=True)
 os.makedirs("images", exist_ok=True)
 
-# --- 4. İçerik & Görsel Üretimi ---
 for idea in ideas:
     title = idea["title"]
+    # 4.1. slug ve tarih
+    date = datetime.utcnow().strftime("%Y-%m-%d")
     slug = "".join(c for c in title.lower() if c.isalnum() or c==" ").replace(" ", "-")
-    md_path = f"content/{slug}.md"
+    md_path = f"_posts/{date}-{slug}.md"
     img_path = f"images/{slug}.png"
 
-    # 4.1. Makale üret
+    # 4.2. Makale üret
     prompt = (
         f"Write a detailed blog post in Turkish about: '{title}'. "
         "Include intro, body and conclusion with at least three paragraphs."
     )
     text = gen(prompt)[0]["generated_text"]
 
-    # 4.2. Affiliate bağlantıları
+    # 4.3. Affiliate bağlantıları
     aff = cfg.get("affiliate", {})
     footer = "\n---\n## Ürün Önerileri (Affiliate)\n"
     for plat, tag in aff.items():
@@ -64,18 +66,20 @@ for idea in ideas:
             url = f"https://www.hepsiburada.com/?tag={tag}"
         footer += f"- [{plat.capitalize()}]({url})\n"
 
+    # 4.4. Markdown dosyasını _posts/ klasörüne Front Matter’lı yaz
     with open(md_path, "w", encoding="utf-8") as f:
-        f.write(f"# {title}\n\n{text}\n{footer}")
+        f.write("---\n")
+        f.write("layout: post\n")
+        f.write(f"title: \"{title}\"\n")
+        f.write(f"date: {date}T00:00:00+00:00\n")
+        f.write("categories: ai pasif gelir\n")
+        f.write("---\n\n")
+        f.write(text + "\n\n" + footer)
     print(f"✅ Oluşturuldu: {md_path}")
 
-    # 4.3. Görsel üret
+    # 4.5. Görsel üret
     image = sd(title).images[0]
     image.save(img_path)
     print(f"🖼️ Oluşturuldu: {img_path}")
 
-subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
-subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
-subprocess.run(["git", "add", "content", "images"], check=True)
-subprocess.run(["git", "commit", "-m", "📦 Otomatik içerik ve görseller eklendi"], check=False)
-subprocess.run(["git", "push"], check=True)
-print("Tüm içerikler üretildi ve içeren klasörler güncellendi.")
+print("🎉 Tüm yazılar `_posts/` klasörüne hazırlandı.")
